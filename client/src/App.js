@@ -8,6 +8,7 @@ import { useSelector } from "react-redux";
 import Profile from "./pages/Profile";
 import Admin from "./pages/Admin";
 import ProductInfo from "./pages/ProductInfo";
+import "remixicon/fonts/remixicon.css";
 function App() {
   const { loading } = useSelector(state => state.loaders);
   return (
